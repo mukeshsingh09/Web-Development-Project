@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Payment Form</title>
+  <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+  <form action="">
+    <h1>Payment Form</h1>
+    <p>Required fields are followed by *</p>
+    <h1>Contact Information</h1>
+    <fieldset>
+
+      <p>Name: *<input type="text" name="name" required></p>
+      <p>
+        Male * <input type="radio" name="name" id=""> Female <input type="radio" name="gender" required>
+      </p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="90" rows="7"></textarea></p>
+    <p>Email: * <input type="email" id="email" required></p>
+    <p>Pincode: * <input type="number" name="pincode" id="pincode" nrequired></p>
+    <h2>Payment Information</h2>
+    <p>Card Type:
+      <select name="card_type" id="card_type">
+        <option value="">--Select a card type--</option>
+        <option value="visa">Visa</option>
+        <option value="phonepay">phonepay</option>
+        <option value="rupay">rupay</option>
+      </select>
+    </p>
+    <p>
+      Card Number * <input type="number" name="card_number" id="card_number" required>
+    </p>
+    <p>
+      Expiration Date: * <input type="date" name="date" id="date" required>
+    </p>
+    <p>CVV <input type="pascode" name="CVV" id="CVV"> </p>
+    <input type="submit" value="paysuccess">
+
+  </form>
+
+
+</body>
+
+</html>
